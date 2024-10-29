@@ -18,7 +18,7 @@ print("Squared numbers from 0 to 20:", squared_numbers_0_to_20)
 def get_first_15_elements(numbers):
     return numbers[:15]
 squared_numbers_0_to_20 = [0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225, 256, 289, 324, 361, 400]
-
+# I intially used parantheses instead of brackets here, which gave me an error that I resolved by putting brackets around the numbers
 first_15_squared_numbers = get_first_15_elements(squared_numbers_0_to_20)
 print("First 15 elements of the squared list:", first_15_squared_numbers)
 
